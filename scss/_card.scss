@@ -1,0 +1,77 @@
+.card{
+    margin-top: 30rem;
+    .card__line{
+        width: 150px;
+        border-top: 2px solid #C396C6;
+        margin-bottom: 6rem;
+    }
+    h1{
+        font-size: 7.2rem;
+        font-weight: 700;
+        margin-bottom: 9rem;
+    }
+}
+.card__wrap{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    img{
+        margin-bottom: 3.2rem;
+    }
+    h3{
+        font-size: 2.8rem;
+        font-weight: 400;
+        line-height: 0.8;
+        margin-bottom: 1.6rem;
+    }
+    p{
+        max-width: 350px;
+        font-size: 1.6rem;
+        color: #837D88;
+        font-weight: 400;
+        margin-bottom: 1.6rem;
+    }
+}
+
+
+
+@media screen and (max-width:800px) {
+    .card{
+        margin-top: 110rem;
+        .card__line{
+            margin-left: auto;
+            margin-right: auto;
+        }
+        h1{
+            text-align: center;
+        }
+    }
+    .card__wrapper{
+        margin-left: auto;
+        margin-right: auto;
+        img{
+            margin-left: 40%;
+        }
+        h3{
+            text-align: center;
+        }
+        p{
+            max-width: 500px;
+            text-align: center;
+        }
+    }
+}
+@media screen and (max-width:600px) {
+    .card{
+        margin-top: 90rem;
+    }
+}
+@media screen and (max-width:600px) {
+    .card{
+        margin-top: 60rem;
+        h1{
+            font-size: 4.8rem;
+        }
+    }
+}
+

@@ -1,0 +1,52 @@
+.find{
+    margin-top: 15rem;
+    height: 25rem;
+    background: url(../image/bg\ image.svg);
+    padding: 7rem 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    h1{
+        color: #fff;
+        font-size: 5.6rem;
+        font-weight: 400;
+        max-width: 500px;
+    }
+    a{
+        padding: 1.3rem 2.5rem;
+        font-size: 1.3rem;
+        font-weight: 700;
+        border: 2px solid #fff;
+        color: #fff;
+        &:hover{
+        background: #fff;
+        color: #2C2830;
+        }
+    }
+}
+
+@media screen and (max-width:800px) {
+    .find{
+        margin-top: 13rem ;
+        display: flex;
+        gap: 4rem;
+        flex-direction: column;
+        height: auto;
+        background: url(../image/Group\ 13.svg);
+        background-repeat:no-repeat;
+        background-size: cover;   
+        background-position: center;
+        padding: 7rem 4rem ;
+        h1{
+            max-width: 800px;
+        }
+    }
+}
+@media screen and (max-width:450px) {
+    .find{
+        margin-top: 10rem ;
+        h1{
+            font-size: 4rem;
+        }
+    }
+}

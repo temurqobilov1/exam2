@@ -45,6 +45,9 @@
   }
     
 }
+.position11{
+    display: none;
+}
 .position1{
     position: absolute;
     top: 0px;
@@ -67,7 +70,6 @@
         flex-direction: column-reverse;
         gap: 0rem;
         padding-top: 0rem;
-        overflow: hidden;
 }
     .hero__img{
         z-index: 1;
@@ -77,6 +79,7 @@
         width: 100%;
         background: #2D2641;
         padding-bottom: 10rem;
+        overflow: auto;
     div{
         display: none;
     }   
@@ -94,11 +97,15 @@
     } 
 
 }  
-.position1{
+.position11{
+    display: block;
     position: absolute;
-    top: 1350px;
-    right: -180px;
+    top: 1400px;
+    right: 0px;
    
+}
+.position1{
+    display: none;
 }
 .position2{
     position: absolute;
@@ -118,10 +125,10 @@
         font-size: 6rem;
     }
 }  
-.position1{
+.position11{
     position: absolute;
-    top: 1150px;
-    right: -180px;
+    top: 1100px;
+    right: -0px;
    
 }
 .position2{
@@ -145,10 +152,10 @@
         margin-left: 30%;
     } 
 }  
-.position1{
+.position11{
     position: absolute;
     top: 950px;
-    right: -200px;
+    right: 0px;
    
 }
 .position2{
